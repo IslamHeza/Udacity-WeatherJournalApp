@@ -19,7 +19,7 @@ let d = new Date();
 
 let newDate = d.getMonth()+1+'.'+ d.getDate()+'.'+ d.getFullYear();
 const apiKey = 'c82a5d14faeb5a13eebb09d0826639ec' ;
-const baseApi = 'https://api.openweathermap.org/data/2.5/weather?zip=' ;
+const baseApi = 'https://api.openweathermap.org/data/2.5/weather?units=metric&zip=' ;
 
 document.getElementById('generate').addEventListener('click', performActon);
 
